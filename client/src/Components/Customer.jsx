@@ -7,7 +7,7 @@ function Customer() {
       <div className="row">
         {/* First Column */}
         <div className="col-md-6">
-          <h2>Happy !</h2>
+          <h2>Happy Customers!</h2>
           <img
             src="https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2018/10/pic49-free-img.png"
             style={{ marginTop: "25px" }}
