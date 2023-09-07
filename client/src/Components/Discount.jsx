@@ -18,7 +18,7 @@ function Discount() {
         </div>
         <div className="col">
           <div className="text-left">
-            <h4 className="wednesday">Wednesdays Means</h4>
+            <h4 className="wednesday"> Means</h4>
             <h2>Happy Hours!</h2>
             <p className="tag">
               Half Price Bottles of Wine and Six Tasty Launches for $9
