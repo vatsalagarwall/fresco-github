@@ -24,10 +24,10 @@ function Discount() {
               Half Price Bottles of Wine and Six Tasty Launches for $9
             </p>
             <p className="description">
-              Join us at Fresco every Wednesday for a delightful culinary
-              journey. Enjoy special discounts and unique menu offerings, making
-              your midweek dining experience extraordinary. Indulge in the
-              perfect blend of flavors and savings that only Fresco can offer on
+              Join us at every Wednesday for a delightful culinary journey.
+              Enjoy special discounts and unique menu offerings, making your
+              midweek dining experience extraordinary. Indulge in the perfect
+              blend of flavors and savings that only Fresco can offer on
               Wednesdays.
             </p>
             <button
