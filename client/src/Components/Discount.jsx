@@ -21,7 +21,7 @@ function Discount() {
             <h4 className="wednesday">Wednesdays Means</h4>
             <h2>Happy Hours!</h2>
             <p className="tag">
-              Half Price Bottles of Wine and Six Tasty Launches for $9
+              Half Price Bottles of Wine and Six Launches for $9
             </p>
             <p className="description">
               Join us at Fresco every Wednesday for a delightful culinary
