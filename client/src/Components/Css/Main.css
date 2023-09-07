@@ -1,0 +1,17 @@
+.fresco {
+  font-family: "Berkshire Swash", serif;
+  font-size: 75px;
+}
+
+.tagline {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  color: #ff770f;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .centered-content {
+    padding: 10px; /* Add some padding for smaller screens */
+  }
+}

@@ -1,0 +1,35 @@
+h5,
+h2 {
+  font-family: "Berkshire Swash", serif;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.tag {
+  font-family: "Raleway";
+  font-size: 25px;
+}
+
+.content {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+h3 {
+  font-family: "Raleway";
+}
+
+.reserve {
+  border: 2px solid #ff770f;
+  border-radius: 15px;
+  background-color: #ff770f;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .img-fluid {
+    display: none;
+  }
+}

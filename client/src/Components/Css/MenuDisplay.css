@@ -1,0 +1,44 @@
+.menu {
+  font-size: 40px;
+  font-family: "Berkshire Swash", serif;
+}
+
+.tag {
+  font-family: "Raleway";
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.content {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+.dish-name {
+  font-size: 20px;
+  font-family: "Raleway";
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.description {
+  font-family: "Raleway";
+  text-align: center;
+  font-size: 14px;
+}
+
+.price {
+  line-height: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Raleway";
+}
+
+.dish-image {
+  max-height: 200px; /* Adjust the max height as needed */
+  max-width: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}

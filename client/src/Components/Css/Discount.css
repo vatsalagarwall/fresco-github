@@ -1,0 +1,21 @@
+.wednesday {
+  font-family: "Berkshire Swash", serif;
+}
+
+.tag {
+  font-family: "Raleway";
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.description {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+.reserve {
+  border: 2px solid #ff770f;
+  border-radius: 15px;
+  background-color: #ff770f;
+  color: white;
+}
