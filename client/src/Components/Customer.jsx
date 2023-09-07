@@ -13,7 +13,7 @@ function Customer() {
             style={{ marginTop: "25px" }}
           />
           <p className="review">
-            " is a pizza lover's paradise with incredible flavor, and the
+            "Fresco is a pizza lover's paradise with incredible flavor, and the
             atmosphere makes every visit a delightful experience."
           </p>
           <p className="name">- Shamika Smith</p>
