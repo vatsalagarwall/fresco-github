@@ -14,7 +14,7 @@ function Footer() {
   return (
     <footer style={footerStyle} className="footer">
       <div className="footer-part">
-        <p> - India’s most awarded authentic Italian restaurant</p>
+        <p>Fresco - India’s most awarded authentic Italian restaurant</p>
       </div>
     </footer>
   );
