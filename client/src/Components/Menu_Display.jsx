@@ -101,7 +101,7 @@ function Menu_Display() {
               <p className="description">
                 Classic Italian pizza with simplicity.
               </p>
-              <p className="">$29.5</p>
+              <p className="commit">$29.5</p>
             </div>
           </div>
           <div className="col-md-4">
