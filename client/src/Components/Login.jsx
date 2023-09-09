@@ -33,7 +33,7 @@ function Login() {
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <h4>Login</h4>
-            <label htmlFor="exampleInputEmail1">Email address</label>
+            <label htmlFor="exampleInputEmail1"> address</label>
             <input
               type="email"
               className="form-control"
