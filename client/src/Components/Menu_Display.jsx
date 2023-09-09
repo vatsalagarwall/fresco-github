@@ -85,8 +85,8 @@ function Menu_Display() {
       <h1 className="menu">Our Menu</h1>
       <p className="tag">Quality Ingredients, Tasty Meals</p>
       <p className="content">
-        Savor our authentic Italian menu, prepared with love and care, for a
-        truly delightful dining experience.
+        Savor our authentic menu, prepared with love and care, for a truly
+        delightful dining experience.
       </p>
       <div className="container mt-5">
         <div className="row">
