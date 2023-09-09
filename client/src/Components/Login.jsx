@@ -44,7 +44,7 @@ function Login() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputPassword1"></label>
+            <label htmlFor="exampleInputPassword1">Password</label>
             <input
               type="password"
               className="form-control"
