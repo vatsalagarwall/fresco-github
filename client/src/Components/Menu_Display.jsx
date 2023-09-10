@@ -113,7 +113,7 @@ function Menu_Display() {
               />
               <h2 className="dish-name">Spaghetti Delle</h2>
               <p className="description">
-                Rustic baguette toasted with herb-garlic butter & parmesan.
+                Rustic baguette toasted herb-garlic butter & parmesan.
               </p>
               <p className="price">$28</p>
             </div>
