@@ -115,7 +115,7 @@ function Menu_Display() {
               <p className="description">
                 Rustic baguette toasted with herb-garlic butter & parmesan.
               </p>
-              <p className="">$28</p>
+              <p className="price">$28</p>
             </div>
           </div>
           <div className="col-md-4">
