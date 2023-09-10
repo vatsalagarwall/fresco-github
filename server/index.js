@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const ReservationModel = require("./models/Reservation")
-// const ClientModel = require("./models/Client")
+const ClientModel = require("./models/Client")
 
 const app = express();
 app.use(express.json())
