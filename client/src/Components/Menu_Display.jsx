@@ -174,7 +174,6 @@ function Menu_Display() {
               <p className="price">$28</p>
             </div>
           </div>
-          {/* Repeat the pattern for other dishes */}
         </div>
       </div>
     </div>
