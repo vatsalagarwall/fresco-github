@@ -13,34 +13,34 @@ app.use(cors())
 
 mongoose.connect("mongodb://127.0.0.1:27017/login-register-fresco-clients")
 
-app.get("/", (req, res) => {
+// app.get("/", (req, res) => {
 
-})
+// })
 
 
-app.post("/login", (req, res) => {
-    const { email, password } = req.body
-    ClientModel.findOne({ email: email })
-        .then(user => {
-            if (user) {
-                if (user.password === password) {
-                    res.json("Success")
-                }
-                else {
-                    res.json("Password is incorrect")
-                }
-            }
-            else {
-                res.json("No such records ")
-            }
-        })
-})
+// app.post("/login", (req, res) => {
+//     const { email, password } = req.body
+//     ClientModel.findOne({ email: email })
+//         .then(user => {
+//             if (user) {
+//                 if (user.password === password) {
+//                     res.json("Success")
+//                 }
+//                 else {
+//                     res.json("Password is incorrect")
+//                 }
+//             }
+//             else {
+//                 res.json("No such records ")
+//             }
+//         })
+// })
 
-app.post('/register', (req, res) => {
-    ClientModel.create(req.body)
-        .then(clients => res.json(clients))
-        .catch(err => res.json(err))
-}
+// app.post('/register', (req, res) => {
+//     ClientModel.create(req.body)
+//         .then(clients => res.json(clients))
+//         .catch(err => res.json(err))
+// }
 )
 
 app.post('/reserve', (req, res) => {
