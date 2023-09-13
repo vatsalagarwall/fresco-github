@@ -41,7 +41,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/login-register-fresco-clients")
 //         .then(clients => res.json(clients))
 //         .catch(err => res.json(err))
 // }
-)
+// )
 
 app.post('/reserve', (req, res) => {
     ReservationModel.create(req.body)
