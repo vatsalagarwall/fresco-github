@@ -1,6 +1,8 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
+require('dotenv').config();
+const { MONGO_URL } = process.env
 const ReservationModel = require("./models/Reservation")
 // const ClientModel = require("./models/Client")
 
@@ -11,7 +13,7 @@ app.use(cors())
 
 
 
-mongoose.connect("mongodb+srv://vatsal:vatsal@fresco.0duzobi.mongodb.net/fresco")
+mongoose.connect(MONGO_URL)
     .then(() => console.log("Mongo Db connected successfully"))
     .catch((err) => console.log(err))
 
