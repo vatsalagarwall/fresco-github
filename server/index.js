@@ -11,9 +11,9 @@ app.use(cors())
 
 
 
-mongoose.connect("mongodb+srv://vatsal:vatsal@fresco.0duzobi.mongodb.net/fresco", (
-    console.log("Connected")
-))
+mongoose.connect("mongodb+srv://vatsal:vatsal@fresco.0duzobi.mongodb.net/fresco")
+    .then(() => console.log("Mongo Db connected successfully"))
+    .catch((err) => console.log(err))
 
 // app.get("/", (req, res) => {
 
