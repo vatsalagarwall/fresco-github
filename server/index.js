@@ -11,7 +11,9 @@ app.use(cors())
 
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/login-register-fresco-clients")
+mongoose.connect("mongodb+srv://vatsal:vatsal@fresco.0duzobi.mongodb.net/fresco", (
+    console.log("Connected")
+))
 
 // app.get("/", (req, res) => {
 
