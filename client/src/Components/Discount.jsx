@@ -11,7 +11,7 @@ function Discount() {
           <div className="text-center">
             <img
               src="https://plus.unsplash.com/premium_photo-1681830416589-b970dd0bd837?auto=format&fit=crop&q=80&w=2075&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Image"
+              alt="Img"
               className="img-fluid"
             />
           </div>
